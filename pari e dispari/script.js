@@ -12,7 +12,8 @@
 let responseMex = document.getElementById('messaggio');
 
 // prompt
-let pariDispari = prompt("pari o dispari?");
+let pariDispariInserito = prompt("pari o dispari?");
+let pariDispari = pariDispariInserito.toLowerCase();
 let numUtente = parseInt(prompt("inserisci un numero da 1 a 5"));
 
 console.log("utente ha scelto: ", pariDispari);
