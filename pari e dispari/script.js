@@ -40,11 +40,13 @@ if (somma % 2 === 0 && pariDispari == "pari" || somma % 2 !== 0 && pariDispari =
 
   responseMex.innerHTML = `hai scelto: ${pariDispari} e il numero: ${numUtente}. 
   Il computer ha estratto ${numPc} quindi hai vinto!`;
+
 } else {
 
   console.log("hai perso :(")
 
   responseMex.innerHTML = `hai scelto: ${pariDispari} e il numero: ${numUtente}. 
   Il computer ha estratto ${numPc} quindi hai perso :(`;
+  
 }
 
